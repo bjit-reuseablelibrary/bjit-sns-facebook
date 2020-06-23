@@ -19,7 +19,7 @@ class FacebookLogin
     //Creating Url
     public function getUrl()
     {
-        $url = $this->auth_url.'?client_id='.$this->client_id.'&redirect_uri='.$this->redirect_url.'&response_type=code&scope="email,user_birthday,user_events,user_photos,user_friends,user_hometown,user_likes,user_location,user_photos,user_status,user_tagged_places,user_videos,ads_management,ads_read,read_insights,user_friends,read_page_mailboxes"';
+        $url = $this->auth_url.'?client_id='.$this->client_id.'&redirect_uri='.$this->redirect_url.'&response_type=code&scope=email,user_birthday,user_events,user_photos,user_friends,user_hometown,user_likes,user_location,user_status,user_videos,user_friends';
         return $url;
     }
     //Providing Access token
