@@ -1,0 +1,13 @@
+{
+    "name": "bjit/bjit-sns-facebook",
+    "description": "Facebook Authentication Library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mahabub.mollah",
+            "email": "mahabub.mollah@bjitgroup.com"
+        }
+    ],
+    "require": {}
+}
